@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "api",
+			"path": ".."
+		},
+		{
+			"name": "models",
+			"path": "..\\..\\mern-project1\\models"
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.jshint"
+		]
+	}
+}

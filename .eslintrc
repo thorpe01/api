@@ -1,0 +1,18 @@
+{
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "browser": true
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react-hooks/recommended", "prettier"],
+    "plugins": ["react", "react-hooks"],
+    "rules": {
+      "camelcase": "off",
+      "react/prop-types": "off",
+      "react/react-in-jsx-scope": "off"
+    }
+  }
